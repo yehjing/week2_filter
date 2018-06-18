@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HaveFun</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/all.css">
+
+    <style>
+        .box {
+            height: 200px;
+            background: #000;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container d-flex flex-column flex-md-row">
+
+            <div class="container-md-left">
+                <a class="navbar-brand ml-md-5" href="index.html">HaveFun</a>
+            </div>
+            <div class="pl-md-5 flex-1">
+                <form style="max-width:400px">
+                    <div style="position:relative">
+                        <i class="fas fa-search" style="color:#fff; position:absolute; top:10px "></i>
+                        <input class="form-control mr-sm-2 pl-4 bg-primary search-1" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container d-flex flex-column flex-md-row">
+        <div class="container-md-left ">
+            <div class="h4 d-flex d-md-none justify-content-center mt-2">
+                <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration:none;">
+                    <span class="mr-2">Add filter</span>
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+
+            <div class="collapse d-md-block" id="collapseExample">
+                <div class="px-5 py-4 border-bottom filter">
+
+                    <div class="h5">
+                        Location
+                    </div>
+
+                    <div>
+                        <select class="form-control">
+                            <option>Taiwan</option>
+                            <option>Kaohsiung</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <div class="px-5 py-4 border-bottom filter">
+                    <div class="h5">Price</div>
+                    <select class="form-control">
+                        <option>Free</option>
+                        <option>Paid</option>
+                    </select>
+                </div>
+                <div class="px-5 py-4 filter">
+                    <p class="h5">Open Time</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories1">
+                        <label class="form-check-label" for="Categories1">Everyday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories2">
+                        <label class="form-check-label" for="Categories2">Monday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories3">
+                        <label class="form-check-label" for="Categories3">Tuesday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories4">
+                        <label class="form-check-label" for="Categories4">Wednesday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories5">
+                        <label class="form-check-label" for="Categories5">Thursday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories6">
+                        <label class="form-check-label" for="Categories6">Friday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories7">
+                        <label class="form-check-label" for="Categories7">Saturday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Categories8">
+                        <label class="form-check-label" for="Categories8">Sunday</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid pl-md-5 py-md-4 flex-1 px-0">
+            <div class="d-none d-md-block">
+                <p class="h4">Showing
+                    <span class="text-primary">15</span> results by...</p>
+
+                <button type="button" class="btn btn-outline-primary btn-rounded">
+                    Taiwan
+                    <i class="far fa-times-circle"></i>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-rounded">
+                    Free
+                    <i class="far fa-times-circle"></i>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-rounded">
+                    Everyday
+                    <i class="far fa-times-circle"></i>
+                </button>
+            </div>
+
+            <a class="card flex-xl-row my-4" id="card-link" href="page.html" style="text-decoration:none; color:#000">
+                <div class="bg-cover bg-xl-cover bg-md-cover rounded-xl-left rounded-top" style="background-image: url(https://bit.ly/2kB3h9J)"></div>
+                <div class="card-body flex-1">
+                    <h4 class="text-primary">
+                        Lorem ipsum dolor sit.
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum libero consectetur modi magnam iure ab
+                        odio necessitatibus id reiciendis quis!</p>
+                    <p class="font-weight-bold">Lorem ipsum</p>
+                    <span class="card-xl-icon card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="text-black-50">Kaohsiung</span>
+                    </span>
+                    <span class="card-xl-icon card-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span class="text-black-50">Free</span>
+                    </span>
+                    <span class="card-xl-icon card-icon">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="text-black-50">Monday-Tuesday</span>
+                    </span>
+
+                </div>
+            </a>
+
+            <a class="card flex-xl-row my-4" id="card-link" href="page.html" style="text-decoration:none; color:#000">
+                <div class="bg-cover bg-xl-cover bg-md-cover rounded-xl-left rounded-top" style="background-image: url(https://bit.ly/2strKBv)"></div>
+                <div class="card-body flex-1">
+                    <h4 class="text-primary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, provident!
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt vel sint dolorem impedit
+                        fuga aspernatur quaerat velit quasi, incidunt iusto praesentium accusamus eaque, asperiores deserunt
+                        quis alias exercitationem ab!</p>
+                    <p class="font-weight-bold">iusto praesentium</p>
+                    <span class="card-xl-icon card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="text-black-50">Kaohsiung</span>
+                    </span>
+                    <span class="card-xl-icon card-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span class="text-black-50">Free</span>
+                    </span>
+                    <span class="card-xl-icon card-icon">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="text-black-50">Monday-Tuesday</span>
+                    </span>
+
+                </div>
+            </a>
+
+            <a class="card flex-xl-row my-4" id="card-link" href="page.html" style="text-decoration:none; color:#000">
+                <div class="bg-cover bg-xl-cover bg-md-cover rounded-xl-left rounded-top" style="background-image: url(https://bit.ly/2L9puqy)"></div>
+                <div class="card-body flex-1">
+                    <h4 class="text-primary">
+                        Lorem ipsum dolor sit amet consectetur. </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos molestiae ratione beatae odit voluptatem,
+                        sit officiis commodi, assumenda fuga harum accusantium laboriosam quae odio velit eaque illo doloremque
+                        quisquam!
+                    </p>
+                    <p class="font-weight-bold">amet consectetur</p>
+                    <span class="card-xl-icon card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="text-black-50">Kaohsiung</span>
+                    </span>
+                    <span class="card-xl-icon card-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span class="text-black-50">Free</span>
+                    </span>
+                    <span class="card-xl-icon card-icon">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="text-black-50">Monday-Tuesday</span>
+                    </span>
+
+                </div>
+            </a>
+
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center justify-content-md-end">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
